@@ -1,0 +1,145 @@
+footer , nav{
+    background-color: rgb(223, 25, 52);
+    
+ 
+}
+
+.nav-link{
+       color: rgb(206, 201, 201);
+       font-size: 1.2rem;
+}
+nav{
+    min-height: 8rem;
+}
+
+body{
+    background: grey;
+}
+footer{
+    border-top-left-radius: 1.8rem;
+    border-top-right-radius: 1.8rem;
+}
+
+.lien_nav{
+    color: rgb(206, 201, 201);
+    text-decoration: none;
+}
+.lien_nav:hover{
+    color: black;
+    text-decoration: none;
+}
+.lien_nav2{
+    color: rgb(206, 201, 201);
+    font: 1.1rem sans-serif;
+    text-decoration: none;
+}
+.dropdown-item{
+    color: rgb(206, 201, 201);
+   
+    font-size: 1.3rem;
+}
+.dropdown-menu{
+     background-color: rgb(223, 25, 52);
+}
+.blockPrincipal{
+    min-height: 60rem;
+    width: 95%;
+    background-color: aliceblue;
+    border-radius: 2rem;
+}
+.container_exo{
+    padding: 3rem;
+    border: 1px black solid;
+    border-radius: 2rem;
+
+}
+.testCode{
+    height: 50rem;
+    background-color: rgb(161, 187, 187);
+}
+#footer{
+    height: 10rem;
+    
+}
+.blocktest{
+    border: 2.5px rgb(223, 25, 52) solid;
+    border-radius: 1.5rem;
+}
+.imgPenseBeteCss , .imgPenseBeteHtml{
+    height: 130%;  
+}
+td{
+    font-size:10px;
+}
+
+
+
+/* partie jeux 421 */
+
+.tapis{
+    width: 90%;
+  border-radius: 2rem;
+   background-image: url(img/tapis.jpg);
+   border: 7px solid #A66530;
+  }
+    .joueur1 ,.joueur2 {
+  height: 8.438rem;
+  width: 8.438rem;
+  border:  3px solid rgb(150, 129, 9);
+  border-radius: 50%;
+    }
+    .pot{
+        height: 7rem;
+        width: 30%;
+        border:  3px solid rgb(150, 129, 9);
+        border-radius: 1rem;
+    }
+    .jeuxdes{
+        position: relative;
+        height: 25%;
+        width: 40%;
+        border-radius: 0.3rem;
+        border: 3px solid rgb(150, 129, 9);
+    }
+
+
+    .troisD img {
+        height: 100%;
+        width: 27%;
+      
+      }
+      #lancer1 , #lancer2{
+        width: 8rem;
+        border-radius: 10px;
+        font-size: 12px;
+        border: 2px solid #A66530;
+  
+      }
+      #start{
+        border-radius: 10px;
+        font-size: 12px;
+        border: 2px solid #A66530;
+        width: 5rem;
+      }
+      .joueur1{
+       
+       
+        background-image: url(img/jetonrouge.png);
+        background-repeat: no-repeat;
+      }
+      .joueur2{
+    
+        background-image: url(img/jetonbleu.png);
+        background-repeat: no-repeat;
+  
+      }
+      #j2 , #j1 , #pot ,#jetonj1 , #jetonj2 , .couleurpot , .textTour, #tour{
+        color:red ;
+  
+      }
+  
+
+
+
+      
+/*# sourceMappingURL=index.css.map */
